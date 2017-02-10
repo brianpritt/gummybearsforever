@@ -2,6 +2,10 @@
     ViewData["Title"] = "Gummy Bears Forever";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
- <h2>Gummy Bears Forever</h2>
+<div class="heading">
+    <h4>North America's Largest Gummy Bear Wholesaler</h4>
+</div>
+<div class="before-fold">
+    @Html.ActionLink("Inventory", "Index", "Inventory", null);
+</div>
 
-@Html.ActionLink("Inventory", "Index", "Inventory", null);

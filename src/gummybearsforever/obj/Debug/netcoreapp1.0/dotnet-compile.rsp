@@ -1,5 +1,5 @@
---temp-output:c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\obj\Debug\netcoreapp1.0\
---out:c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\bin\Debug\netcoreapp1.0\gummybearsforever.dll
+--temp-output:C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\bin\Debug\netcoreapp1.0\gummybearsforever.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -195,13 +195,13 @@
 --reference:C:\Users\Brian\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Brian\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Brian\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\obj\Debug\netcoreapp1.0\gummybearsforeverdotnet-compile.deps.json",gummybearsforever.deps.json
-c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Program.cs
-c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Startup.cs
-c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Controllers\HomeController.cs
-c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Controllers\InventoryController.cs
-c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\20170210045627_Initial.cs
-c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\20170210045627_Initial.Designer.cs
-c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\GummyBearsForeverDbContextModelSnapshot.cs
-c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Models\GummyBearsForeverDbContext.cs
-c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Models\Inventory.cs
+--resource:"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\obj\Debug\netcoreapp1.0\gummybearsforeverdotnet-compile.deps.json",gummybearsforever.deps.json
+C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Program.cs
+C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Startup.cs
+C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Controllers\HomeController.cs
+C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Controllers\InventoryController.cs
+C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\20170210045627_Initial.cs
+C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\20170210045627_Initial.Designer.cs
+C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\GummyBearsForeverDbContextModelSnapshot.cs
+C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Models\GummyBearsForeverDbContext.cs
+C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Models\Inventory.cs

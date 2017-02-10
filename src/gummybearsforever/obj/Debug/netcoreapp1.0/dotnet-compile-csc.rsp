@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\bin\Debug\netcoreapp1.0\gummybearsforever.dll"
+"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\bin\Debug\netcoreapp1.0\gummybearsforever.dll"
 -r:"C:\Users\Brian\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
 -r:"C:\Users\Brian\.nuget\packages\Microsoft.AspNetCore.Authorization\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Authorization.dll"
 -r:"C:\Users\Brian\.nuget\packages\Microsoft.AspNetCore.Cors\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Cors.dll"
@@ -191,13 +191,13 @@
 -r:"C:\Users\Brian\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Brian\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Brian\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\obj\Debug\netcoreapp1.0\gummybearsforeverdotnet-compile.deps.json",gummybearsforever.deps.json
-"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Program.cs"
-"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Startup.cs"
-"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Controllers\HomeController.cs"
-"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Controllers\InventoryController.cs"
-"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\20170210045627_Initial.cs"
-"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\20170210045627_Initial.Designer.cs"
-"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\GummyBearsForeverDbContextModelSnapshot.cs"
-"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Models\GummyBearsForeverDbContext.cs"
-"c:\users\brian\documents\visual studio 2015\Projects\gummybearsforever\src\gummybearsforever\Models\Inventory.cs"
+-resource:"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\obj\Debug\netcoreapp1.0\gummybearsforeverdotnet-compile.deps.json",gummybearsforever.deps.json
+"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Program.cs"
+"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Startup.cs"
+"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Controllers\HomeController.cs"
+"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Controllers\InventoryController.cs"
+"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\20170210045627_Initial.cs"
+"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\20170210045627_Initial.Designer.cs"
+"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Migrations\GummyBearsForeverDbContextModelSnapshot.cs"
+"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Models\GummyBearsForeverDbContext.cs"
+"C:\Users\Brian\Documents\Visual Studio 2015\Projects\gummybearsforever\src\gummybearsforever\Models\Inventory.cs"

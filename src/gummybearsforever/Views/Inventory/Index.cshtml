@@ -4,16 +4,29 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h3>Current Inventory</h3>
-<table class="table>"
-@foreach (var item in Model)
-{
-    <tr>
-        <td>
-            @Html.ActionLink(item.GummyName, "Details", new { id = item.GummyId }) 
-        </td>
-    </tr>
 
-}
-<hr />
-    </table>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+
+            <div class="col xs4 s4 m4">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">@item.GummyName</span>
+                        
+                    </div>
+                    <div class="card-action">
+                        <p>@Html.ActionLink("Details", "Details", new { id = item.GummyId }) </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        }
+    </div>
+
+    
 @Html.ActionLink("Add a new gummy", "Create")
