@@ -8,3 +8,8 @@
 <p>@Html.DisplayNameFor(model => model.GummyName): @Html.DisplayFor(model => model.GummyName)</p>
 <p>@Html.DisplayNameFor(model => model.Cost): @Html.DisplayFor(model => model.Cost)</p>
 <p>@Html.DisplayNameFor(model => model.Country): @Html.DisplayFor(model => model.Country)</p>
+
+<hr />
+@Html.ActionLink("Update", "Update", new { id = Model.GummyId }) 
+@Html.ActionLink("Delete", "Delete", new { id = Model.GummyId })
+@Html.ActionLink("Add New", "Create")

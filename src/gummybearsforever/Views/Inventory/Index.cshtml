@@ -9,12 +9,7 @@
 {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.GummyName)
-        </td>
-        <td>
-            @Html.ActionLink("Details", "Details", new { id = item.GummyId }) |
-            @Html.ActionLink("Update", "Update", new { id = item.GummyId }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.GummyId })
+            @Html.ActionLink(item.GummyName, "Details", new { id = item.GummyId }) 
         </td>
     </tr>
 
