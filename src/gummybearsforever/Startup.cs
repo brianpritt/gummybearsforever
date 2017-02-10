@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using GummyBearsForever.Models;
 
 
-namespace GummyBearsForever
+namespace GummyBearsForever 
 {
     public class Startup
     {
@@ -25,15 +25,21 @@ namespace GummyBearsForever
         }
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
             services.AddEntityFramework()
-                .AddDbContext<GummyBearsForeverContext>(options =>
+                .AddDbContext<GummyBearsForeverDbContext>(options =>
                     options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
         }
 
-
         public void Configure(IApplicationBuilder app)
         {
-
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
+            app.UseStaticFiles();
 
             app.Run(async (context) =>
             {
@@ -41,4 +47,5 @@ namespace GummyBearsForever
             });
         }
     }
+
 }
