@@ -1,6 +1,14 @@
-﻿@{
+﻿@model IEnumerable<GummyBearsForever.Models.Inventory>
+@{
     ViewData["Title"] = "Gummy Bears Forever";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h3>Current Inventory</h3>
+
+@foreach (var item in Model)
+{
+    @Html.DisplayFor(modelItem => item.GummyName)
+    @Html.ActionLink("Details", "Details", new { id = item.GummyId }) 
+    < hr />
+}
 
