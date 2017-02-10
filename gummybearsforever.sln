@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{778141C1-C491-4760-A608-FB2608A4DD6F}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		src\gummybearsforever\README.md = src\gummybearsforever\README.md
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "gummybearsforever", "src\gummybearsforever\gummybearsforever.xproj", "{F925D9DE-1EA7-498D-8D87-23E77684FC7C}"

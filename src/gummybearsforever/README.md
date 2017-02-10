@@ -7,7 +7,7 @@
 ## Description
 
 _Gummy Bears Forever is a web application with full CRUD functionallity, that allows the company Gummy Bears Forever to keep track of their small but every changing inventory of gummies.
-_
+_this site is modeled after the website http://www.3point5.com _
 
 ## Setup/Installation Requirements
 
