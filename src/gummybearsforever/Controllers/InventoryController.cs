@@ -46,20 +46,20 @@ namespace GummyBearsForever.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
-    //    public ActionResult Delete(int id)
-    //    {
-    //        var thisExperience = db.Experiences.FirstOrDefault(experiences => experiences.ExperienceId == id);
-    //        return View(thisExperience);
-    //    }
+       public ActionResult Delete(int id)
+        {
+            var thisGummy = db.Inventories.FirstOrDefault(inventories => inventories.GummyId == id);
+            return View(thisGummy);
+        }
 
-    //    [HttpPost, ActionName("Delete")]
-    //    public ActionResult DeleteConfirmed(int id)
-    //    {
-    //        var thisExperience = db.Experiences.FirstOrDefault(experiences => experiences.ExperienceId == id);
-    //        db.Experiences.Remove(thisExperience);
-    //        db.SaveChanges();
-    //        return RedirectToAction("Index");
-    //    }
+        [HttpPost, ActionName("Delete")]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            var thisGummy = db.Inventories.FirstOrDefault(inventories => inventories.GummyId == id);
+            db.Inventories.Remove(thisGummy);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
 
 
 

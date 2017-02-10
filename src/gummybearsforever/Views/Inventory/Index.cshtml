@@ -4,17 +4,21 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h3>Current Inventory</h3>
-
+<table class="table>"
 @foreach (var item in Model)
 {
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.GummyName)
+        </td>
+        <td>
             @Html.ActionLink("Details", "Details", new { id = item.GummyId }) |
-            @Html.ActionLink("Update", "Update", new { id = item.GummyId })
+            @Html.ActionLink("Update", "Update", new { id = item.GummyId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.GummyId })
         </td>
     </tr>
 
 }
 <hr />
+    </table>
 @Html.ActionLink("Add a new gummy", "Create")
