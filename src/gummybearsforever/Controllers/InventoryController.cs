@@ -23,35 +23,29 @@ namespace GummyBearsForever.Controllers
                 .FirstOrDefault(inventories => inventories.GummyId == id);
             return View(thisGummy);
        }
-    //    public ActionResult Create()
-    //    {
-    //        ViewBag.LocationId = new SelectList(db.Locations, "LocationId", "LocationName");
-
-    //        ViewBag.MealTypeId = new SelectList(db.MealTypes, "MealTypeId", "MealTypeName");
-    //        return View();
-    //    }
-    //    [HttpPost]
-    //    public ActionResult Create(Experience experience)
-    //    {
-    //        db.Experiences.Add(experience);
-    //        db.SaveChanges();
-    //        return RedirectToAction("Index");
-    //    }
-    //    public ActionResult Update(int id)
-    //    {
-    //        var thisExperience = db.Experiences.FirstOrDefault(experience => experience.ExperienceId == id);
-    //        ViewBag.LocationId = new SelectList(db.Locations, "LocationId", "LocationName");
-
-    //        ViewBag.MealTypeId = new SelectList(db.MealTypes, "MealTypeId", "MealTypeName");
-    //        return View(thisExperience);
-    //    }
-    //    [HttpPost]
-    //    public ActionResult Update(Experience experience)
-    //    {
-    //        db.Entry(experience).State = EntityState.Modified;
-    //        db.SaveChanges();
-    //        return RedirectToAction("Index");
-    //    }
+        public ActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Create(Inventory inventory)
+        {
+            db.Inventories.Add(inventory);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        public ActionResult Update(int id)
+        {
+            var thisGummy = db.Inventories.FirstOrDefault(inventory => inventory.GummyId == id);
+            return View(thisGummy);
+        }
+        [HttpPost]
+        public ActionResult Update(Inventory inventory)
+        {
+            db.Entry(inventory).State = EntityState.Modified;
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     //    public ActionResult Delete(int id)
     //    {
     //        var thisExperience = db.Experiences.FirstOrDefault(experiences => experiences.ExperienceId == id);

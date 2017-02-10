@@ -1,0 +1,21 @@
+﻿@model GummyBearsForever.Models.Inventory
+@{
+    ViewData["Title"] = "Gummy Bears Forever";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Add an Experience</h2>
+<hr />
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.GummyName, "Name: ")
+    @Html.EditorFor(model => model.GummyName)
+
+    @Html.LabelFor(model => model.Country, "Country of Origin: ")
+    @Html.EditorFor(model => model.Country)
+
+    @Html.LabelFor(model => model.Cost, "Price: ")
+    @Html.EditorFor(model => model.Cost)
+
+    <input type="submit" value="Create" />
+}
+@Html.ActionLink("back to list", "Index")

@@ -7,8 +7,14 @@
 
 @foreach (var item in Model)
 {
-    @Html.DisplayFor(modelItem => item.GummyName)
-    @Html.ActionLink("Details", "Details", new { id = item.GummyId }) 
-    < hr />
-}
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.GummyName)
+            @Html.ActionLink("Details", "Details", new { id = item.GummyId }) |
+            @Html.ActionLink("Update", "Update", new { id = item.GummyId })
+        </td>
+    </tr>
 
+}
+<hr />
+@Html.ActionLink("Add a new gummy", "Create")
