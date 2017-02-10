@@ -11,28 +11,29 @@ _
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+To run this application you wil need the following installed on your computer:
+* _Mssql_
+* _Microsoft Visual Studio_
+* _Microsoft .Net Core
+* _Git_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+
+_Clone the following repository on to your computer: https://github.com/brianpritt/gummybearsforever_
+* Open Visual Studio, and open the gummybearsforever project file.  Build the project.
+* In Windows PowerShell, navigate to the ../src folder and run: dotnet ef database update to build a SQL Database.
+* You can now launch the application from within Visual Studio.
 
 ## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+At time of publication, there were no known bugs.
 
 ## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
+Brian Pritt's GitHub page: https://github.com/brianpritt
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+This application relies on MSSQL, and MS Visual Studio.
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*GPLv#*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_Brian Pritt_**
