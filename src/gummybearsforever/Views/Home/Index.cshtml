@@ -3,9 +3,12 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div class="heading">
+    <img class="outline" src="~/img/gummyoutline.png" />
     <h4>North America's Largest Gummy Bear Wholesaler</h4>
 </div>
-<div class="before-fold">
-    @Html.ActionLink("Inventory", "Index", "Inventory", null);
+<div class="beforefold">
+    <h2 class="title">We've got the gummies you crave!</h2>
+    <h5 class="fronttext">If there is a gummy that tickles your fancy, we are sure to have it!  We are North America's largest importer and wholesaler of gummies!  You don't see it on the list?  Drop us a line and we'll make sure you get it!</h5>
+    <p>*@Html.ActionLink("Check out our current inventory.", "Index", "Inventory", null)*</p>
 </div>
 

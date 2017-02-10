@@ -1,9 +1,12 @@
 ﻿.brand-logo
 {
-    font-size: 6px;
+    font-size: 20px;
 }
 body{
     background-image: url("../img/Marijuana-Gummy-Bear-Raid.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
     
 }
 .heading 
@@ -11,16 +14,34 @@ body{
     background-color: white;
     margin-top: -20px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     text-align: center;
-    font-size: 12px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
 }
-    .heading h4
+.heading h4
     {
-        font-size:25px;
+        font-size:45px;
         padding-right: 5px;
     }
-.before-fold 
+.beforefold h2
 {
+    text-align:center;
+    color:white;
+}
+.beforefold h5
+{
+    text-align:center;
+    color:white;
+}
+.beforefold p
+{
+    text-align:center;
+    text-decoration: none;
+}
+.outline{
+    height: 60px;
+    float: left;
+    padding-left:40px;
 
 }
