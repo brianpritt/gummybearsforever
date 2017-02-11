@@ -34,6 +34,6 @@ This application relies on MSSQL, and MS Visual Studio.
 
 ### License
 
-*GPLv#*
+*GPLv3*
 
 Copyright (c) 2017 **_Brian Pritt_**
